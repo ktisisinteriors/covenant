@@ -225,7 +225,7 @@ export default function Contact() {
                 </div>
                 
                 <div>
-                  <Label htmlFor="service" className="text-covenant-dark font-medium">
+                  <Label htmlFor="service" className="text-black font-medium">
                     Service Interest
                   </Label>
                   <Select value={formData.service} onValueChange={(value) => handleInputChange("service", value)}>
@@ -243,7 +243,7 @@ export default function Contact() {
                 </div>
                 
                 <div>
-                  <Label htmlFor="message" className="text-covenant-dark font-medium">
+                  <Label htmlFor="message" className="text-black font-medium">
                     Message *
                   </Label>
                   <Textarea
