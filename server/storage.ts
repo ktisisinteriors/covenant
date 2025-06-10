@@ -41,8 +41,13 @@ export class MemStorage implements IStorage {
   async createContactInquiry(insertInquiry: InsertContactInquiry): Promise<ContactInquiry> {
     const id = this.currentInquiryId++;
     const inquiry: ContactInquiry = {
-      ...insertInquiry,
       id,
+      firstName: insertInquiry.firstName,
+      lastName: insertInquiry.lastName,
+      email: insertInquiry.email,
+      phone: insertInquiry.phone || null,
+      service: insertInquiry.service || null,
+      message: insertInquiry.message,
       createdAt: new Date(),
     };
     this.contactInquiries.set(id, inquiry);
