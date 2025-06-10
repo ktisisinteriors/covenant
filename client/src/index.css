@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(215, 20%, 15%);
+  --muted: hsl(220, 14%, 96%);
+  --muted-foreground: hsl(220, 9%, 46%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(215, 20%, 15%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(215, 20%, 15%);
+  --border: hsl(220, 13%, 91%);
+  --input: hsl(220, 13%, 91%);
+  --primary: hsl(221, 83%, 53%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(220, 14%, 96%);
+  --secondary-foreground: hsl(220, 9%, 46%);
+  --accent: hsl(220, 14%, 96%);
+  --accent-foreground: hsl(220, 9%, 46%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --ring: hsl(221, 83%, 53%);
+  --radius: 0.5rem;
+  
+  /* Custom Covenant Colors */
+  --covenant-blue: hsl(221, 83%, 53%);
+  --covenant-light-blue: hsl(214, 95%, 61%);
+  --covenant-accent: hsl(43, 96%, 56%);
+  --covenant-gray: hsl(215, 16%, 47%);
+  --covenant-dark: hsl(215, 25%, 17%);
+}
+
+.dark {
+  --background: hsl(224, 71%, 4%);
+  --foreground: hsl(213, 31%, 91%);
+  --muted: hsl(223, 47%, 11%);
+  --muted-foreground: hsl(215, 14%, 51%);
+  --popover: hsl(224, 71%, 4%);
+  --popover-foreground: hsl(213, 31%, 91%);
+  --card: hsl(224, 71%, 4%);
+  --card-foreground: hsl(213, 31%, 91%);
+  --border: hsl(216, 34%, 17%);
+  --input: hsl(216, 34%, 17%);
+  --primary: hsl(221, 83%, 53%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(223, 47%, 11%);
+  --secondary-foreground: hsl(213, 31%, 91%);
+  --accent: hsl(216, 34%, 17%);
+  --accent-foreground: hsl(213, 31%, 91%);
+  --destructive: hsl(0, 63%, 31%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --ring: hsl(221, 83%, 53%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter antialiased;
+  }
+}
+
+@layer utilities {
+  .text-covenant-blue {
+    color: var(--covenant-blue);
+  }
+  
+  .text-covenant-light-blue {
+    color: var(--covenant-light-blue);
+  }
+  
+  .text-covenant-accent {
+    color: var(--covenant-accent);
+  }
+  
+  .text-covenant-gray {
+    color: var(--covenant-gray);
+  }
+  
+  .text-covenant-dark {
+    color: var(--covenant-dark);
+  }
+  
+  .bg-covenant-blue {
+    background-color: var(--covenant-blue);
+  }
+  
+  .bg-covenant-light-blue {
+    background-color: var(--covenant-light-blue);
+  }
+  
+  .bg-covenant-accent {
+    background-color: var(--covenant-accent);
+  }
+  
+  .bg-covenant-gray {
+    background-color: var(--covenant-gray);
+  }
+  
+  .bg-covenant-dark {
+    background-color: var(--covenant-dark);
+  }
+  
+  .border-covenant-blue {
+    border-color: var(--covenant-blue);
+  }
+  
+  .hover\:bg-covenant-blue:hover {
+    background-color: var(--covenant-blue);
+  }
+  
+  .hover\:text-covenant-blue:hover {
+    color: var(--covenant-blue);
+  }
+}
