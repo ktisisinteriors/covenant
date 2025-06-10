@@ -68,13 +68,13 @@ export default function Contact() {
     {
       icon: MapPin,
       title: "Office Address",
-      content: ["123 Technology Drive, Suite 100", "Innovation City, State 12345"],
+      content: ["St. Martin Junction", "Cherthala, Kerala"],
       color: "bg-covenant-blue/10 text-covenant-blue"
     },
     {
       icon: Phone,
       title: "Phone Numbers",
-      content: ["+1 (555) 123-4567", "Emergency: +1 (555) 987-6543"],
+      content: ["+91 9496054274", "Primary Contact"],
       color: "bg-green-100 text-green-600"
     },
     {

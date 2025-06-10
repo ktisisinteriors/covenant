@@ -40,7 +40,7 @@ export default function About() {
               About Covenant Advanced Technologies
             </h2>
             <p className="text-lg text-covenant-gray mb-6">
-              With over 15 years of experience in the construction and technology industry, we are committed to delivering innovative solutions that exceed expectations. Our team of certified professionals combines traditional craftsmanship with cutting-edge technology to create spaces that are both beautiful and intelligent.
+              With over 20 years of experience in the construction and technology industry, we are committed to delivering innovative solutions that exceed expectations. Our team of certified professionals combines traditional craftsmanship with cutting-edge technology to create spaces that are both beautiful and intelligent.
             </p>
             
             <div className="space-y-4 mb-8">
@@ -61,12 +61,6 @@ export default function About() {
                 className="bg-covenant-blue text-white hover:bg-blue-700"
               >
                 Learn More About Us
-              </Button>
-              <Button 
-                variant="outline"
-                className="border-covenant-blue text-covenant-blue hover:bg-covenant-blue hover:text-white"
-              >
-                Download Brochure
               </Button>
             </div>
           </div>

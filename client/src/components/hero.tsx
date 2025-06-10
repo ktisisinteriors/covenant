@@ -11,9 +11,9 @@ export default function Hero() {
   };
 
   const stats = [
-    { icon: Building, value: "500+", label: "Projects Completed", color: "text-covenant-blue bg-covenant-blue/10" },
-    { icon: Users, value: "1000+", label: "Happy Clients", color: "text-green-600 bg-green-100" },
-    { icon: Award, value: "15+", label: "Years Experience", color: "text-covenant-accent bg-covenant-accent/10" },
+    { icon: Building, value: "10+", label: "Projects Completed", color: "text-covenant-blue bg-covenant-blue/10" },
+    { icon: Users, value: "50+", label: "Happy Clients", color: "text-green-600 bg-green-100" },
+    { icon: Award, value: "20+", label: "Years Experience", color: "text-covenant-accent bg-covenant-accent/10" },
   ];
 
   return (
@@ -23,7 +23,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&h=1380')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&h=1380')",
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}
