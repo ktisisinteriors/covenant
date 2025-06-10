@@ -23,7 +23,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&h=1380')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&h=1380')",
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}
@@ -49,7 +49,7 @@ export default function Hero() {
               onClick={() => scrollToSection("contact")}
               variant="outline"
               size="lg"
-              className="border-2 border-white text-white hover:bg-white hover:text-covenant-blue font-semibold"
+              className="border-2 border-white text-white hover:bg-white hover:text-covenant-blue font-semibold bg-transparent backdrop-blur-sm shadow-lg"
             >
               Get Free Consultation
             </Button>
