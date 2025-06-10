@@ -32,13 +32,13 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className={`bg-white sticky top-0 z-50 border-b border-slate-200 transition-shadow duration-300 ${isScrolled ? "shadow-lg" : "shadow-sm"}`}>
+    <nav className={`bg-gradient-to-r from-covenant-dark to-slate-900 sticky top-0 z-50 border-b border-covenant-blue/30 transition-shadow duration-300 ${isScrolled ? "shadow-2xl" : "shadow-lg"}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-              <Building className="text-covenant-blue text-2xl mr-3" />
-              <span className="text-xl font-bold text-covenant-dark">
+              <Building className="text-covenant-accent text-2xl mr-3" />
+              <span className="text-xl font-bold text-white">
                 Covenant Advanced Technologies
               </span>
             </div>
@@ -53,8 +53,8 @@ export default function Navigation() {
                   onClick={() => scrollToSection(item.id)}
                   className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
                     index === 0 
-                      ? "text-covenant-dark hover:text-covenant-blue" 
-                      : "text-covenant-gray hover:text-covenant-blue"
+                      ? "text-white hover:text-covenant-accent" 
+                      : "text-gray-300 hover:text-covenant-accent"
                   }`}
                 >
                   {item.label}
@@ -62,7 +62,7 @@ export default function Navigation() {
               ))}
               <Button 
                 onClick={() => scrollToSection("contact")}
-                className="bg-covenant-blue text-white hover:bg-blue-700"
+                className="bg-covenant-accent text-black hover:bg-yellow-600 font-bold"
               >
                 Get Quote
               </Button>
@@ -73,7 +73,7 @@ export default function Navigation() {
           <div className="md:hidden">
             <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
+                <Button variant="ghost" size="icon" className="text-white hover:text-covenant-accent">
                   <Menu className="h-6 w-6" />
                 </Button>
               </SheetTrigger>
