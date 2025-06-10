@@ -112,10 +112,10 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-covenant-dark mb-4">
+          <h2 className="text-3xl md:text-4xl font-semibold text-black mb-4">
             Get In Touch
           </h2>
-          <p className="text-xl text-covenant-gray max-w-3xl mx-auto">
+          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             Ready to start your next project? Contact us today for a free consultation and quote.
           </p>
         </div>
@@ -123,7 +123,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div>
-            <h3 className="text-2xl font-bold text-covenant-dark mb-6">Contact Information</h3>
+            <h3 className="text-2xl font-semibold text-black mb-6">Contact Information</h3>
             
             <div className="space-y-6 mb-8">
               {contactInfo.map((info, index) => (
@@ -132,8 +132,8 @@ export default function Contact() {
                     <info.icon className="text-xl" />
                   </div>
                   <div className="ml-4">
-                    <h4 className="font-semibold text-covenant-dark mb-1">{info.title}</h4>
-                    <div className="text-covenant-gray">
+                    <h4 className="font-semibold text-black mb-1">{info.title}</h4>
+                    <div className="text-gray-700">
                       {info.content.map((line, lineIndex) => (
                         <p key={lineIndex}>{line}</p>
                       ))}
@@ -161,14 +161,14 @@ export default function Contact() {
           </div>
 
           {/* Contact Form */}
-          <Card className="bg-slate-50">
+          <Card className="bg-gray-50">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold text-covenant-dark mb-6">Send Us a Message</h3>
+              <h3 className="text-2xl font-semibold text-black mb-6">Send Us a Message</h3>
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <Label htmlFor="firstName" className="text-covenant-dark font-medium">
+                    <Label htmlFor="firstName" className="text-black font-medium">
                       First Name *
                     </Label>
                     <Input
@@ -181,7 +181,7 @@ export default function Contact() {
                     />
                   </div>
                   <div>
-                    <Label htmlFor="lastName" className="text-covenant-dark font-medium">
+                    <Label htmlFor="lastName" className="text-black font-medium">
                       Last Name *
                     </Label>
                     <Input
@@ -196,7 +196,7 @@ export default function Contact() {
                 </div>
                 
                 <div>
-                  <Label htmlFor="email" className="text-covenant-dark font-medium">
+                  <Label htmlFor="email" className="text-black font-medium">
                     Email Address *
                   </Label>
                   <Input
@@ -211,7 +211,7 @@ export default function Contact() {
                 </div>
                 
                 <div>
-                  <Label htmlFor="phone" className="text-covenant-dark font-medium">
+                  <Label htmlFor="phone" className="text-black font-medium">
                     Phone Number
                   </Label>
                   <Input

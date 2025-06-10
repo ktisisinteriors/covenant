@@ -48,8 +48,8 @@ export default function About() {
                 <div key={index} className="flex items-start">
                   <value.icon className={`${value.color} text-xl mt-1 mr-4`} />
                   <div>
-                    <h4 className="font-semibold text-covenant-dark">{value.title}</h4>
-                    <p className="text-covenant-gray">{value.description}</p>
+                    <h4 className="font-semibold text-black">{value.title}</h4>
+                    <p className="text-gray-700">{value.description}</p>
                   </div>
                 </div>
               ))}
