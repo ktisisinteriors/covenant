@@ -31,7 +31,7 @@ export default function Hero() {
       
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
         <div className="max-w-3xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-white mb-6 leading-tight drop-shadow-2xl">
             Building Tomorrow's Infrastructure Today
           </h1>
           <p className="text-xl text-white/90 mb-8 leading-relaxed drop-shadow-lg">

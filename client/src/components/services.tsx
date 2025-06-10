@@ -86,10 +86,10 @@ export default function Services() {
     <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-covenant-dark mb-4">
+          <h2 className="text-3xl md:text-4xl font-semibold text-black mb-4">
             Our Professional Services
           </h2>
-          <p className="text-xl text-covenant-gray max-w-3xl mx-auto">
+          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             Comprehensive technology solutions for modern construction, automation, and security needs
           </p>
         </div>
@@ -112,14 +112,14 @@ export default function Services() {
                   <div className={`p-3 rounded-lg ${service.color}`}>
                     <service.icon className="text-xl" />
                   </div>
-                  <h3 className="text-xl font-semibold text-covenant-dark ml-3">
+                  <h3 className="text-xl font-semibold text-black ml-3">
                     {service.title}
                   </h3>
                 </div>
-                <p className="text-covenant-gray mb-4">
+                <p className="text-gray-700 mb-4">
                   {service.description}
                 </p>
-                <ul className="text-sm text-covenant-gray space-y-1 mb-4">
+                <ul className="text-sm text-gray-600 space-y-1 mb-4">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center">
                       <Check className="text-green-500 mr-2 h-4 w-4" />

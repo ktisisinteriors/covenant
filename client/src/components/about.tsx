@@ -32,14 +32,14 @@ export default function About() {
   };
 
   return (
-    <section id="about" className="py-20 bg-slate-50">
+    <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-covenant-dark mb-6">
+            <h2 className="text-3xl md:text-4xl font-semibold text-black mb-6">
               About Covenant Advanced Technologies
             </h2>
-            <p className="text-lg text-covenant-gray mb-6">
+            <p className="text-lg text-gray-700 mb-6">
               With over 20 years of experience in the construction and technology industry, we are committed to delivering innovative solutions that exceed expectations. Our team of certified professionals combines traditional craftsmanship with cutting-edge technology to create spaces that are both beautiful and intelligent.
             </p>
             
