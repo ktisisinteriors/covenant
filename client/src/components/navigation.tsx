@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Building, Menu } from "lucide-react";
-import Image from "next/image";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,17 +37,14 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-  <Image 
-    src="/logo_cove.png" 
-    alt="Covenant Logo" 
-    width={40} 
-    height={40} 
-    className="mr-3 object-contain"
-    priority
-  />
-  <span className="text-xl font-bold text-black">
-    Covenant Advanced Technologies
-  </span>
+<img 
+  src="/logo_cove.png" 
+  alt="Covenant Logo" 
+  className="h-10 w-auto mr-3 object-contain"
+/>
+<span className="text-xl font-bold text-black">
+  Covenant Advanced Technologies
+</span>
 </div>
           </div>
 
