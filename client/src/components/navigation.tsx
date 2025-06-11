@@ -37,11 +37,8 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-<img 
-  src="/logo.png" 
-  alt="Covenant Logo" 
-  className="h-10 w-auto mr-3 object-contain"
-/>
+          <img src="/assets/logo.png" alt="Covenant Tech" className="h-16 w-30 pt-[15px]" />
+
 <span className="text-xl font-bold text-black">
   Covenant Advanced Technologies
 </span>
