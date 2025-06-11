@@ -38,7 +38,7 @@ export default function Navigation() {
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
               <Building className="text-covenant-accent text-2xl mr-3" />
-              <span className="text-xl font-bold text-white">
+              <span className="text-xl font-bold text-black">
                 Covenant Advanced Technologies
               </span>
             </div>
