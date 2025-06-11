@@ -38,7 +38,7 @@ export default function Navigation() {
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
 <img 
-  src="/logo_cove.png" 
+  src="/logo.png" 
   alt="Covenant Logo" 
   className="h-10 w-auto mr-3 object-contain"
 />
