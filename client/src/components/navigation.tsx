@@ -36,16 +36,17 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-<div className="flex-shrink-0 flex items-center space-x-3">
+<div className="flex-shrink-0 flex flex-col sm:flex-row sm:items-center sm:space-x-3 py-2">
   <img
     src="/logo.png"
     alt="Covenant Technologies"
-    className="h-12 w-auto object-contain"
+    className="h-12 sm:h-16 w-auto object-contain mx-auto sm:mx-0"
   />
-  <span className="text-lg sm:text-xl md:text-2xl font-bold text-black">
+  <span className="text-center sm:text-left text-base sm:text-xl md:text-2xl font-bold text-black mt-2 sm:mt-0">
     Covenant Advanced Technologies
   </span>
 </div>
+
 
           </div>
 
