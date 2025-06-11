@@ -53,7 +53,7 @@ export default function Navigation() {
                   onClick={() => scrollToSection(item.id)}
                   className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
                     index === 0 
-                      ? "text-white hover:text-covenant-accent" 
+                      ? "text-black hover:text-covenant-accent" 
                       : "text-black hover:text-covenant-accent"
                   }`}
                 >
