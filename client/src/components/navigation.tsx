@@ -36,13 +36,17 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <div className="flex-shrink-0 flex items-center">
-          <img src="/logo.png" alt="Covenant Technologies" className="h-16 w-30 pt-[15px]" />
-
-<span className="text-xl font-bold text-black">
-  Covenant Advanced Technologies
-</span>
+<div className="flex-shrink-0 flex items-center space-x-3">
+  <img
+    src="/logo.png"
+    alt="Covenant Technologies"
+    className="h-12 w-auto object-contain"
+  />
+  <span className="text-lg sm:text-xl md:text-2xl font-bold text-black">
+    Covenant Advanced Technologies
+  </span>
 </div>
+
           </div>
 
           {/* Desktop Navigation */}
